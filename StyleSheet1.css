@@ -1,0 +1,452 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Galada';
+    text-decoration: none;
+}
+.wrapper {
+    position:relative;
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:100vh;
+    background: rgba(0,0,0,0.7)url(back.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+     
+}
+.top{
+    width:100%;
+    height:9%;
+    position:absolute;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+.top ul{
+    float:right;
+    margin:10px;
+    margin-top:25px;
+}
+    .top ul li {
+        display: inline;
+        margin: -18px;
+        color: white;
+        font-weight: 30px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+    .top ul li a{
+        color: white;
+        font-size: 20px;
+        margin-right: 100px;
+        padding-right: 10px;
+        
+        
+    }
+   .navbar{
+       width:100%;
+       height:15%;
+      
+       position:absolute;
+       margin-top: 80px;
+       border:0.2px wheat rgb(201, 200, 200);
+   }
+    .navbar.container {
+        width: 100%;
+        height: 82px;
+    }
+   .navbar_logo img{
+       position:absolute;
+       top:55px;
+       margin-left:50px;
+       width:195px;
+       height:140px;
+       z-index:10;
+   }
+   .navbar .container ul{
+       float:right;
+       padding-top:30px;
+       margin-right: 65px;
+   }
+   .container ul li {
+       display:inline;
+       margin:15px;
+       font-size:16px;
+    
+       
+   }
+   .container ul li a{
+    padding: 10px;
+    color: white;
+    font-weight: 25px;
+
+   }
+   .container ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+   }
+   .content{
+       text-align:center;
+       position:absolute;
+       margin-top: 150px;
+   }
+   .content img{
+       margin-top:80px;
+       width:500px;
+       height:300px;
+   }
+   .content a{
+       color:white;
+       text-decoration:none;
+       display:inline-block;
+       font-size:24px;
+       padding:9px;
+       margin-top:350px;
+   }
+   .last_banner
+   {
+       width:100%;
+       height:500px;
+       background-color:#ddd;
+       position:relative;
+
+   }
+   .last_banner .contactus_last{
+       width:30%;
+       height:300px;
+       background-color:white;
+       margin:80px;
+       position:absolute;
+       padding:40px;
+
+   }
+    .last_banner .google_map {
+        background-color: white;
+        margin-left: 750px;
+        position: absolute;
+        margin-top: 82px;
+    
+}
+    .google_map h3{
+        padding: 5px;
+    }
+   iframe{
+       height:320px;
+       width:450px;
+   }
+   .team{
+       width:100%;
+       height:75px;
+       background-color:#ddd;
+   }
+    .popup_login{
+        width:100%;
+        height:100%;
+        position:absolute;
+        top:0;
+        display:none;
+        align-items:center;
+        justify-content:center;
+    }
+     .popup_content_login{
+         height:450px;
+         width:400px;
+         background:#ffff;
+         padding:20px;
+         border-radius:5px;
+         position:relative;
+         margin-top:90px;
+     }
+     .popup_content_login .logreglogo {
+         margin-left:35px;
+         width:300px;
+         height:200px;
+     }
+        .popup_content_login .close_login {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            height:40px;
+            width: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+.popup_register {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup_content_register {
+    height: 500px;
+    width: 400px;
+    background: #ffff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 90px;
+}
+
+    .popup_content_register .logreglogo {
+        margin-left: 35px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .popup_content_register .close_register {
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+    }
+     input {
+             display: block;
+             margin: 20px auto;
+         border: 1px solid gray;
+          padding: 8px;
+       width: 50%;
+       }
+     .button{
+         color:black;
+         margin-left:156px;
+         margin-top:8px;
+         border:1px solid black;
+         padding:6px;
+     }
+     .forget{
+         display:block;
+         margin-top:45px;
+     }
+.second_page {
+    width: 100%;
+    height: 96vh;
+    position: relative;
+    margin-top: 20px;
+   
+}
+.iframe1{
+    position:absolute;
+   margin-top:50px;
+   margin-left:45px;
+}
+.iframe2 {
+    width: 250px;
+    height: 450px;
+    margin-left: 10px;
+}
+.enquiry_form {
+    position: absolute;
+    width: 370px;
+    height: 475px;
+    margin-top: 59px;
+    margin-left: 900px;
+    background-color:#ddd;
+}
+.enquiry_form input {
+        width:312px;
+        margin: 33px;
+        padding: 7px;
+    }
+.enquiry_form a {
+        margin-left: 40px;
+        font-size: 20px;
+        border: 1px solid black;
+        padding: 4px 20px 4px 20px;
+        border-radius: 15px;
+        background-color: darkblue;
+        color: white;
+    }
+.knowledge {
+    position: absolute;
+    width: 370px;
+    height: 475px;
+    margin-top: 59px;
+    margin-left: 450px;
+    background-color:#ddd;
+}
+    .knowledge h3 {
+        margin: 25px;
+        margin-left:80px;
+    }
+.third_page {
+    width: 100%;
+    height: 96vh;
+    position: relative;
+    background-color: #f1f1f1;
+}
+.third_page ul{
+    position: absolute;
+    width:80%;
+    height:200px;
+    margin-left:120px;
+}
+.third_page ul li {
+   
+    display:inline-block;
+    border:2px solid black;
+    padding: 20px 60px 20px 67px;
+    font-size: 20px;
+    margin:70px;
+}
+.thirdpagecontent1{
+    position:absolute;
+    width:450px;
+    height: 400px;
+    margin-left:100px;
+    margin-top:200px;
+    
+}
+.thirdpagecontent1 p{
+    color: black;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-size: 23px;
+    letter-spacing: 1px;
+
+}
+.thirdpagecontent2{
+    position:absolute;
+    width:350px;
+    height: 300px;
+    margin-left:800px;
+    margin-top:200px;
+    
+}
+.thirdpagecontent2 p{
+    color: black;
+    font-weight: bold;
+    line-height: 1.4em;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 333px )and(max-width: 440px){
+    .top ul li a{
+        color: white;
+        font-size: 15px;
+        margin-right: 18px;
+        padding-right: 20px;  
+    }
+
+@media screen and (max-width: 690px){
+        .top ul li a{
+            color: white;
+            font-size: 20px;
+            margin-right: 40px;
+            padding-right: 5px;  
+        }
+
+}
+
+@media screen and (max-width: 968px)
+{
+    .second_page {
+        width: 100%;
+        height: 265vh;
+        position: relative;
+        display:block;
+    }
+    .second_page h1 {
+            margin-left: 0px;
+            color: #006699;
+        }
+    .iframe1 {
+        display: block;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-right: 10px;
+    }
+
+    .iframe2 {
+        width: 250px;
+        height: 450px;
+        margin-left: 10px;
+    }
+
+    .enquiry_form {
+        position: absolute;
+        display:block;
+        width: 100%;
+        height: 475px;
+        background-color: #ddd;
+        margin-top:1100px;
+        margin-left:0px;
+    }
+
+        .enquiry_form input {
+            width: 60%;
+            margin: 33px;
+            padding: 7px;
+        }
+
+        .enquiry_form a {
+            margin-left: 40px;
+            font-size: 20px;
+            border: 1px solid black;
+            padding: 4px 20px 4px 20px;
+            border-radius: 15px;
+            background-color: darkblue;
+            color: white;
+        }
+
+    .knowledge {
+        display:block;
+        position: absolute;
+        width: 100%;
+        height: 475px;
+        background-color: #ddd;
+        margin-top:600px;
+        margin-left:0px;
+    }
+
+        .knowledge h3 {
+            margin: 25px;
+            margin-left: 80px;
+        }
+      .last_banner {
+        width: 100%;
+        height: 120vh;
+        background-color: #ddd;
+        position: relative;
+    }
+
+        .last_banner .contactus_last {
+            width: 70%;
+            height: 300px;
+            background-color: white;
+            position: absolute;
+            padding: 40px;
+            margin-left:25px;
+        }
+
+        .last_banner .google_map {
+            background-color: white;
+            margin-left: 25px;
+            position: absolute;
+            margin-top: 500px;
+        }
+
+    .google_map h3 {
+        padding: 5px;
+    }
+
+    iframe {
+        height: 80%;
+        width: 90%;
+    }
+
+    .team {
+        width: 100%;
+        height: 75px;
+        background-color: #ddd;
+    }
+}
