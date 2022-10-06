@@ -37,11 +37,13 @@
             <div class="container">
 
                 <ul>
-                    <li><a  class="active" href="ABOUT SCHOOL">ABOUT SCHOOL</a></li>
+                    <li><?php echo "<a href='admission.php' class='active'>ADMISSION</a>";  ?></li>
+                    <li><a href="ADMISSION" class="active"></a></li>
+                    <li><a href="ABOUT SCHOOL">ABOUT SCHOOL</a></li>
                     <li><a href="STUDENT ZONE">STUDENT ZONE</a></li>
                     <li><a href="ACADEMIC ZONE">ACADEMIC ZONE</a></li>
                     <li><a href="FACILITIES">FACILITIES</a></li>
-                    <li><a href="ADMISSION">ADMISSION</a></li>
+                    
                     <li><a href="ACHIEVEMENTS">ACHIEVEMENTS</a></li>
                 </ul>
             </div>
