@@ -5,9 +5,9 @@
 .register_form{
     position: relative;
     width:850px;
-    height:153vh;
+    height:173vh;
     margin-left:80px;
-    margin-top: 345px;
+    margin-top: 355px;
     background-color: #ddd;
 }
 .register_head{
@@ -17,7 +17,7 @@
     position: absolute;
     width:100%;
     height: 70px;
-    background-color: blueviolet;
+    background-color: #243D90;
     border-bottom: 3px solid white;
 }
 .register_head h1{
@@ -26,9 +26,9 @@
 .register_detail{
     position: absolute;
     width:100%;
-    height: 140vh;
+    height: 150vh;
     background-color:#ddd;
-    margin-top:51px;
+    margin-top:59px;
    
 }
 pre {
@@ -51,12 +51,14 @@ input{
     margin-left:125px;
 }
 button{
-    padding:15px 20px 15px 20px;
-    background-color: greenyellow;
+    padding:10px 50px 10px 50px;
+    background-color: #243D90;
     border-radius: 10px;
     font-weight: bold;
     margin-top:30px;
     margin-left:100px;
+    color: white;
+    font-size: 20px;
 }
 .fee_footer{
     margin-top:-150px;
@@ -65,7 +67,7 @@ button{
 .fee_footer .last_banner{
         width: 160%;
         height: 550px;
-        margin-top:1200px;
+        margin-top:1380px;
 }
 .team{
     margin-top:440px;
