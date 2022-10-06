@@ -33,14 +33,16 @@ echo '</style>'
                                      <br>
                     Father's Name : <input type="text" name="Name" placeholder="Father's name"><br>
                Father's Occupation: <input type="text" name="Name" placeholder="Father's Occupation"><br>
-                      Contact No. : <input type="number" name="Name" placeholder="Contact No."><br>
+                     
                     Mother's Name : <input type="text" name="Name" placeholder="Mother's Name"><br>
                Mother's Occupation: <input type="text" name="Name" placeholder="Mother's Occupation"><br>
                            Address: <input type="text" name="Name" placeholder="Enter your Address"><br>
                               City: <input type="text" name="Name" placeholder="Enter your City"><br>
                              State: <input type="text" name="Name" placeholder="Enter your State"><br>
                            Country: <input type="text" name="Name" placeholder="Enter your Country"><br>
-                             Email: <input type="email" name="Name" placeholder="Enter your gmail id">
+                             Email: <input type="email" name="Name" placeholder="Enter your Gmail id"><br>
+                      Contact No. : <input type="number" name="Name" placeholder="Contact No."><br>
+                          Password: <input type="password" name="Name" placeholder="Enter your Password">
                              <button type="submit" form="form1" value="Submit">Submit</button>
             </pre>
         </form>
