@@ -17,9 +17,9 @@ include "header.php";
     <div class="login_box">
       <h1>Login</h1><hr><br>
       <h3>Email Address </h3>
-      <input type="text">
+      <input type="email" required>
       <h3>Password</h3>
-      <input type="text">
+      <input type="password" required>
       <h4><a href="#">Forget Password?</a></h4>
       <input type="button" name="#" value="Login" id="button">    
 </div>
