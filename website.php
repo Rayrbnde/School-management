@@ -27,7 +27,7 @@
                 echo "<a href='Registeration.php' >Registeration</a>";
                   ?></li>
                 <li><?php
-                echo "<a href='Login.php' >Login</a>";
+                echo "<a href='login.php' >Login</a>";
                   ?></li>
                 
             </ul>
@@ -37,7 +37,7 @@
             <div class="container">
 
                 <ul>
-                    <li><?php echo "<a href='admission.php' class='active'>ADMISSION</a>";  ?></li>
+                <li><?php echo "<a href='admission.php' class='active'>ADMISSION</a>";  ?></li>
                     <li><a href="ABOUT SCHOOL">ABOUT SCHOOL</a></li>
                     <li><a href="STUDENT ZONE">STUDENT ZONE</a></li>
                     <li><a href="ACADEMIC ZONE">ACADEMIC ZONE</a></li>
@@ -103,6 +103,8 @@
             </div>
         
     </div>
+    
+     <header style="font-size:50px"><marquee scrollamount=15;>Dream School :- “Learn as much as you can while you are young, since life becomes too busy later.” </marquee></header>
 
     <div class="last_banner">
         <div class="contactus_last">
@@ -132,46 +134,8 @@
         <h1 style="padding:5px">�2022 Dream School</h1>
         <h3 style="padding:5px">Desgin and Develop By:- AKH TEAM</h3>
     </div>
-    <div class="popup_login">
-        <div class="popup_content_login">
-            <img src="close.png" class="close_login" />
-            <img src="ab.png" class="logreglogo" />
-            <input type="text" placeholder="username" name="username" />
-            <input type="text" placeholder="password" name="password" />
-            <a class="button" href="#">Login</a>
-            <a class="forget" href="#">Forger Password?</a>
-
-        </div>
-
+   
     </div>
-    <div class="popup_register">
-        <div class="popup_content_register">
-            <img src="close.png" class="close_register" />
-            <img src="ab.png" class="logreglogo" />
-            <input type="text" placeholder="username" name="username" />
-            <input type="email" placeholder="gmail id" name="gmail" />
-            <input type="text" placeholder="password" name="password" />
-            <input type="text" placeholder="confirm password" name="password" />
-            <a class="button" href="#">Signup</a>
-
-
-        </div>
-
-    </div>
-    <script>
-        window.onscroll = function() {myFunction()};
-        
-        var navbar = document.getElementsByClassName(".navbar");
-        var sticky = navbar.offsetTop;
-        
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
-        }
-        </script>
-
+    
 </body>
 </html>
